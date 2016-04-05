@@ -1,0 +1,329 @@
+2016-03-22 19:16:13,017 [Worker-4] DEBUG class java.lang.Class - Starting Andmore Common Plugin...
+2016-03-22 19:16:13,017 [Worker-4] DEBUG class java.lang.Class - Andmore Common Plugin started.
+2016-03-22 19:16:13,017 [Worker-4] DEBUG class java.lang.Class - Starting Andmore Plugin...
+2016-03-22 19:16:13,017 [Worker-4] DEBUG class java.lang.Class - Andmore Plugin started.
+2016-03-22 19:16:13,032 [Worker-4] DEBUG class java.lang.Class - Starting Andmore Emulator Plugin...
+2016-03-22 19:16:13,048 [Worker-4] DEBUG class java.lang.Class - Andmore Emulator Plugin started.
+2016-03-22 19:16:13,064 [Worker-4] DEBUG class java.lang.Class - Starting Andmore Device Services Plugin...
+2016-03-22 19:16:13,064 [Worker-4] DEBUG class java.lang.Class - Andmore Device Services Plugin started.
+2016-03-22 19:16:13,079 [Worker-4] DEBUG class java.lang.Class - Starting Andmore Handset Plugin...
+2016-03-22 19:16:13,079 [Worker-4] DEBUG class java.lang.Class - Andmore Handset Plugin started.
+2016-03-22 19:16:13,079 [Worker-4] DEBUG class java.lang.Class - Starting Andmore Remote Device Plugin...
+2016-03-22 19:16:13,079 [Worker-4] DEBUG class java.lang.Class - Starting Andmore Remote Device Plugin started.
+2016-03-22 19:16:13,111 [Worker-4] INFO  Studio for Android - [Status: id=IDLE;name=IDLE]
+2016-03-22 19:16:13,111 [Worker-4] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.handset.status.handsetonline;name=Online]
+2016-03-22 19:16:13,111 [Worker-4] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.notavailable;name=Not available]
+2016-03-22 19:16:13,111 [Worker-4] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.offline;name=Offline]
+2016-03-22 19:16:13,111 [Worker-4] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.online;name=Online]
+2016-03-22 19:16:13,111 [Worker-4] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.offlineNoData;name=Offline (no user data)]
+2016-03-22 19:16:13,111 [Worker-4] INFO  Studio for Android - [Status: id=OFF;name=OFF]
+2016-03-22 19:16:13,111 [Worker-4] INFO  Studio for Android - [Status: id=INACTIVE;name=INACTIVE]
+2016-03-22 19:16:13,111 [Worker-4] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.remote.status.disconnected;name=Disconnected]
+2016-03-22 19:16:13,111 [Worker-4] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.remote.status.connected;name=Connected]
+2016-03-22 19:32:16,348 [Device List Monitor] DEBUG Studio for Android - Device connected: emulator-5554
+2016-03-22 19:32:16,678 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyTestDevice Status: OFF
+2016-03-22 19:32:16,680 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyTestDevice Status: org.eclipse.andmore.android.emulator.status.notavailable
+2016-03-22 19:32:17,896 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyTestDevice Status: org.eclipse.andmore.android.emulator.status.offlineNoData
+2016-03-22 19:32:17,897 [Device List Monitor] INFO  Studio for Android - The TmL Instance is not started/Starting, but the emulator/VM is already online. Execute a dummy start service to force a transition to start status...
+2016-03-22 19:32:17,902 [Device List Monitor] INFO  Studio for Android - Try to get Timeout property from MyTestDevice
+2016-03-22 19:32:17,904 [Device List Monitor] DEBUG Studio for Android - Retrieved start logic: org.eclipse.andmore.android.emulator10.StartAndroidEmulatorLogic@5f09ae37
+2016-03-22 19:32:17,904 [Device List Monitor] DEBUG Studio for Android - Finished Execution of the start emulator service... :MyTestDevice Status => Status OK: unknown code=0 OK null
+2016-03-22 19:32:17,905 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyTestDevice Status: org.eclipse.andmore.android.emulator.status.online
+2016-03-22 19:32:17,905 [Device List Monitor] INFO  Studio for Android - Added instance MyTestDevice using default emulator definitions 
+2016-03-22 19:32:17,907 [Instance Event Manager] INFO  Studio for Android - The emulator MyTestDevice transitioned to started state. Try to estabilish a VNC connection...
+2016-03-22 19:32:17,907 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_23_x86 Status: OFF
+2016-03-22 19:32:17,907 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_23_x86 Status: org.eclipse.andmore.android.emulator.status.notavailable
+2016-03-22 19:32:17,910 [Device List Monitor] INFO  Studio for Android - Added instance Nexus_5_API_23_x86 using default emulator definitions 
+2016-03-22 19:32:17,910 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_23_x86 Status: org.eclipse.andmore.android.emulator.status.offlineNoData
+2016-03-22 19:32:17,910 [Device List Monitor] INFO  Studio for Android - New Device connected at emulator-5554
+2016-03-22 19:32:17,913 [Device List Monitor] DEBUG Studio for Android - Device connected: emulator-5556
+2016-03-22 19:32:19,198 [Device List Monitor] INFO  Studio for Android - New Device connected at emulator-5556
+2016-03-22 19:32:22,216 [Device List Monitor] DEBUG Studio for Android - Device disconnected: emulator-5554
+2016-03-22 19:32:34,537 [Device List Monitor] DEBUG Studio for Android - Device changed: emulator-5556
+2016-03-22 19:34:32,154 [Device List Monitor] DEBUG Studio for Android - Device disconnected: emulator-5556
+2016-03-22 19:48:46,731 [main] DEBUG class java.lang.Class - Starting Andmore Launch Plugin...
+2016-03-22 19:48:46,731 [main] DEBUG class java.lang.Class - Andmore Launch Plugin started.
+2016-03-22 19:48:46,950 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyTestDevice Status: org.eclipse.andmore.android.emulator.status.offline
+2016-03-22 19:58:46,232 [Device List Monitor] DEBUG Studio for Android - Device connected: emulator-5554
+2016-03-22 19:58:47,465 [Device List Monitor] INFO  Studio for Android - The TmL Instance is not started/Starting, but the emulator/VM is already online. Execute a dummy start service to force a transition to start status...
+2016-03-22 19:58:47,466 [Device List Monitor] INFO  Studio for Android - Try to get Timeout property from Nexus_5_API_23_x86
+2016-03-22 19:58:47,466 [Device List Monitor] DEBUG Studio for Android - Retrieved start logic: org.eclipse.andmore.android.emulator10.StartAndroidEmulatorLogic@5f09ae37
+2016-03-22 19:58:47,466 [Device List Monitor] DEBUG Studio for Android - Finished Execution of the start emulator service... :Nexus_5_API_23_x86 Status => Status OK: unknown code=0 OK null
+2016-03-22 19:58:47,467 [Device List Monitor] INFO  Studio for Android - New Device connected at emulator-5554
+2016-03-22 19:58:47,504 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_23_x86 Status: org.eclipse.andmore.android.emulator.status.online
+2016-03-22 19:58:47,504 [Instance Event Manager] INFO  Studio for Android - The emulator Nexus_5_API_23_x86 transitioned to started state. Try to estabilish a VNC connection...
+2016-03-22 19:59:04,593 [Device List Monitor] DEBUG Studio for Android - Device changed: emulator-5554
+2016-03-22 19:59:54,381 [Device List Monitor] DEBUG Studio for Android - Device disconnected: emulator-5554
+2016-03-22 20:30:17,549 [Device List Monitor] DEBUG Studio for Android - Device connected: emulator-5554
+2016-03-22 20:30:18,762 [Device List Monitor] INFO  Studio for Android - New Device connected at emulator-5554
+2016-03-22 20:30:35,527 [Device List Monitor] DEBUG Studio for Android - Device changed: emulator-5554
+2016-03-22 20:31:13,746 [Device List Monitor] DEBUG Studio for Android - Device disconnected: emulator-5554
+2016-03-22 20:47:59,835 [Device List Monitor] DEBUG Studio for Android - Device connected: emulator-5554
+2016-03-22 20:48:01,164 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_23_x86 Status: org.eclipse.andmore.android.emulator.status.offline
+2016-03-22 20:48:01,165 [Device List Monitor] INFO  Studio for Android - The TmL Instance is not started/Starting, but the emulator/VM is already online. Execute a dummy start service to force a transition to start status...
+2016-03-22 20:48:01,165 [Device List Monitor] INFO  Studio for Android - Try to get Timeout property from MyTestDevice
+2016-03-22 20:48:01,165 [Device List Monitor] DEBUG Studio for Android - Retrieved start logic: org.eclipse.andmore.android.emulator10.StartAndroidEmulatorLogic@5f09ae37
+2016-03-22 20:48:01,166 [Device List Monitor] DEBUG Studio for Android - Finished Execution of the start emulator service... :MyTestDevice Status => Status OK: unknown code=0 OK null
+2016-03-22 20:48:01,166 [Device List Monitor] INFO  Studio for Android - New Device connected at emulator-5554
+2016-03-22 20:48:01,168 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyTestDevice Status: org.eclipse.andmore.android.emulator.status.online
+2016-03-22 20:48:01,169 [Instance Event Manager] INFO  Studio for Android - The emulator MyTestDevice transitioned to started state. Try to estabilish a VNC connection...
+2016-03-22 20:48:07,421 [Device List Monitor] DEBUG Studio for Android - Device disconnected: emulator-5554
+2016-03-22 20:48:17,190 [Device List Monitor] DEBUG Studio for Android - Device connected: emulator-5554
+2016-03-22 20:48:18,343 [Device List Monitor] INFO  Studio for Android - New Device connected at emulator-5554
+2016-03-22 20:48:33,119 [Device List Monitor] DEBUG Studio for Android - Device disconnected: emulator-5554
+2016-03-22 21:45:30,907 [Worker-91] DEBUG class org.eclipse.andmore.android.AndroidPlugin - Notify SDK loader listeners
+2016-03-22 21:45:31,017 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyTestDevice Status: org.eclipse.andmore.android.emulator.status.notavailable
+2016-03-22 21:52:01,417 [main] DEBUG class java.lang.Class - Starting Eclipse Andmore Database Core Plugin...
+2016-03-22 21:52:01,673 [main] DEBUG Studio for Android - JDBC Driver Location:bundleentry://939.fwk1558493351/res/androidjdbc.jar JDBC Driver getBundle().getLocation():reference:file:plugins/org.eclipse.andmore.android.common_0.5.0.201512151015.jar
+2016-03-22 21:52:01,720 [main] DEBUG Studio for Android - JDBC Driver Path:E:\eclipse - Mobile\configuration\org.eclipse.osgi\939\0\.cp\res\androidjdbc.jar
+2016-03-22 21:52:01,720 [main] DEBUG Studio for Android - JDBC Driver Location:bundleentry://939.fwk1558493351/res/androidjdbc.jar JDBC Driver getBundle().getLocation():reference:file:plugins/org.eclipse.andmore.android.common_0.5.0.201512151015.jar
+2016-03-22 21:52:01,720 [main] DEBUG Studio for Android - JDBC Driver Path:E:\eclipse - Mobile\configuration\org.eclipse.osgi\939\0\.cp\res\androidjdbc.jar
+2016-03-22 21:52:01,720 [main] INFO  Studio for Android - Created a JDBC driver instance at Data Tools.
+2016-03-22 21:52:01,735 [main] DEBUG class java.lang.Class - Eclipse Andmore Database Core Plugin started.
+2016-03-22 21:52:01,735 [main] DEBUG class java.lang.Class - Starting Eclipse Andmore Database Devices Support Plugin...
+2016-03-22 21:52:01,735 [main] DEBUG class java.lang.Class - Eclipse Andmore Database Devices Support Plugin started...
+2016-03-22 21:52:02,489 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.wizard.DeviceWizardPlugin-SHUTDOWN
+2016-03-22 21:52:04,496 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.service.start.StartServicePlugin-SHUTDOWN
+2016-03-22 21:52:05,152 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.ui.DeviceUIPlugin-SHUTDOWN
+2016-03-22 21:52:05,152 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.service.stop.StopServicePlugin-SHUTDOWN
+2016-03-22 21:52:05,152 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.DevicePlugin-SHUTDOWN
+2016-03-22 23:21:20,470 [Worker-5] DEBUG class java.lang.Class - Starting Andmore Common Plugin...
+2016-03-22 23:21:20,491 [Worker-5] DEBUG class java.lang.Class - Andmore Common Plugin started.
+2016-03-22 23:21:20,491 [Worker-5] DEBUG class java.lang.Class - Starting Andmore Plugin...
+2016-03-22 23:21:20,495 [Worker-5] DEBUG class java.lang.Class - Andmore Plugin started.
+2016-03-22 23:21:20,555 [Worker-5] DEBUG class java.lang.Class - Starting Andmore Emulator Plugin...
+2016-03-22 23:21:20,571 [Worker-5] DEBUG class java.lang.Class - Andmore Emulator Plugin started.
+2016-03-22 23:21:20,602 [Worker-5] DEBUG class java.lang.Class - Starting Andmore Handset Plugin...
+2016-03-22 23:21:20,602 [Worker-5] DEBUG class java.lang.Class - Andmore Handset Plugin started.
+2016-03-22 23:21:20,618 [Worker-5] DEBUG class java.lang.Class - Starting Andmore Remote Device Plugin...
+2016-03-22 23:21:20,618 [Worker-5] DEBUG class java.lang.Class - Starting Andmore Remote Device Plugin started.
+2016-03-22 23:21:20,626 [Worker-5] DEBUG class java.lang.Class - Starting Andmore Device Services Plugin...
+2016-03-22 23:21:20,626 [Worker-5] DEBUG class java.lang.Class - Andmore Device Services Plugin started.
+2016-03-22 23:21:20,650 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_23_x86 Status: OFF
+2016-03-22 23:21:20,650 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyTestDevice Status: OFF
+2016-03-22 23:21:20,650 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_23_x86 Status: org.eclipse.andmore.android.emulator.status.notavailable
+2016-03-22 23:21:20,650 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyTestDevice Status: org.eclipse.andmore.android.emulator.status.notavailable
+2016-03-22 23:21:20,650 [Worker-5] INFO  Studio for Android - [Status: id=IDLE;name=IDLE]
+2016-03-22 23:21:20,650 [Worker-5] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.handset.status.handsetonline;name=Online]
+2016-03-22 23:21:20,650 [Worker-5] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.notavailable;name=Not available]
+2016-03-22 23:21:20,650 [Worker-5] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.offline;name=Offline]
+2016-03-22 23:21:20,650 [Worker-5] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.online;name=Online]
+2016-03-22 23:21:20,650 [Worker-5] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.offlineNoData;name=Offline (no user data)]
+2016-03-22 23:21:20,650 [Worker-5] INFO  Studio for Android - [Status: id=OFF;name=OFF]
+2016-03-22 23:21:20,650 [Worker-5] INFO  Studio for Android - [Status: id=INACTIVE;name=INACTIVE]
+2016-03-22 23:21:20,650 [Worker-5] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.remote.status.disconnected;name=Disconnected]
+2016-03-22 23:21:20,650 [Worker-5] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.remote.status.connected;name=Connected]
+2016-03-22 23:21:20,972 [Worker-3] DEBUG class org.eclipse.andmore.android.AndroidPlugin - Notify SDK loader listeners
+2016-03-22 23:21:22,261 [Worker-2] DEBUG class org.eclipse.andmore.android.AndroidPlugin - Notify SDK loader listeners
+2016-03-22 23:21:22,542 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_23_x86 Status: org.eclipse.andmore.android.emulator.status.offline
+2016-03-23 00:47:21,384 [Worker-20] DEBUG class org.eclipse.andmore.android.AndroidPlugin - Notify SDK loader listeners
+2016-03-23 00:51:47,269 [main] DEBUG class java.lang.Class - Starting Eclipse Andmore Database Core Plugin...
+2016-03-23 00:51:47,660 [main] DEBUG Studio for Android - JDBC Driver Location:bundleentry://939.fwk1653013010/res/androidjdbc.jar JDBC Driver getBundle().getLocation():reference:file:plugins/org.eclipse.andmore.android.common_0.5.0.201512151015.jar
+2016-03-23 00:51:47,660 [main] DEBUG Studio for Android - JDBC Driver Path:E:\eclipse - Mobile\configuration\org.eclipse.osgi\939\0\.cp\res\androidjdbc.jar
+2016-03-23 00:51:47,660 [main] DEBUG Studio for Android - JDBC Driver Location:bundleentry://939.fwk1653013010/res/androidjdbc.jar JDBC Driver getBundle().getLocation():reference:file:plugins/org.eclipse.andmore.android.common_0.5.0.201512151015.jar
+2016-03-23 00:51:47,660 [main] DEBUG Studio for Android - JDBC Driver Path:E:\eclipse - Mobile\configuration\org.eclipse.osgi\939\0\.cp\res\androidjdbc.jar
+2016-03-23 00:51:47,675 [main] DEBUG class java.lang.Class - Eclipse Andmore Database Core Plugin started.
+2016-03-23 00:51:47,675 [main] DEBUG class java.lang.Class - Starting Eclipse Andmore Database Devices Support Plugin...
+2016-03-23 00:51:47,691 [main] DEBUG class java.lang.Class - Eclipse Andmore Database Devices Support Plugin started...
+2016-03-23 00:51:49,098 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.wizard.DeviceWizardPlugin-SHUTDOWN
+2016-03-23 00:51:49,754 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.service.start.StartServicePlugin-SHUTDOWN
+2016-03-23 00:51:49,879 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.ui.DeviceUIPlugin-SHUTDOWN
+2016-03-23 00:51:49,879 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.service.stop.StopServicePlugin-SHUTDOWN
+2016-03-23 00:51:49,879 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.DevicePlugin-SHUTDOWN
+2016-03-23 00:52:49,620 [Worker-3] DEBUG class java.lang.Class - Starting Andmore Common Plugin...
+2016-03-23 00:52:49,620 [Worker-3] DEBUG class java.lang.Class - Andmore Common Plugin started.
+2016-03-23 00:52:49,620 [Worker-3] DEBUG class java.lang.Class - Starting Andmore Plugin...
+2016-03-23 00:52:49,620 [Worker-3] DEBUG class java.lang.Class - Andmore Plugin started.
+2016-03-23 00:52:49,667 [Worker-3] DEBUG class java.lang.Class - Starting Andmore Emulator Plugin...
+2016-03-23 00:52:49,698 [Worker-3] DEBUG class java.lang.Class - Andmore Emulator Plugin started.
+2016-03-23 00:52:49,730 [Worker-3] DEBUG class java.lang.Class - Starting Andmore Handset Plugin...
+2016-03-23 00:52:49,730 [Worker-3] DEBUG class java.lang.Class - Andmore Handset Plugin started.
+2016-03-23 00:52:49,745 [Worker-3] DEBUG class java.lang.Class - Starting Andmore Remote Device Plugin...
+2016-03-23 00:52:49,745 [Worker-3] DEBUG class java.lang.Class - Starting Andmore Remote Device Plugin started.
+2016-03-23 00:52:49,761 [Worker-3] DEBUG class java.lang.Class - Starting Andmore Device Services Plugin...
+2016-03-23 00:52:49,761 [Worker-3] DEBUG class java.lang.Class - Andmore Device Services Plugin started.
+2016-03-23 00:52:49,808 [Worker-3] INFO  Studio for Android - [Status: id=IDLE;name=IDLE]
+2016-03-23 00:52:49,808 [Worker-3] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.handset.status.handsetonline;name=Online]
+2016-03-23 00:52:49,808 [Worker-3] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.notavailable;name=Not available]
+2016-03-23 00:52:49,808 [Worker-3] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.offline;name=Offline]
+2016-03-23 00:52:49,808 [Worker-3] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.online;name=Online]
+2016-03-23 00:52:49,808 [Worker-3] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.offlineNoData;name=Offline (no user data)]
+2016-03-23 00:52:49,808 [Worker-3] INFO  Studio for Android - [Status: id=OFF;name=OFF]
+2016-03-23 00:52:49,808 [Worker-3] INFO  Studio for Android - [Status: id=INACTIVE;name=INACTIVE]
+2016-03-23 00:52:49,808 [Worker-3] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.remote.status.disconnected;name=Disconnected]
+2016-03-23 00:52:49,808 [Worker-3] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.remote.status.connected;name=Connected]
+2016-03-23 00:52:49,839 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_23_x86 Status: OFF
+2016-03-23 00:52:49,839 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyTestDevice Status: OFF
+2016-03-23 00:52:49,839 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_23_x86 Status: org.eclipse.andmore.android.emulator.status.notavailable
+2016-03-23 00:52:49,839 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyTestDevice Status: org.eclipse.andmore.android.emulator.status.notavailable
+2016-03-23 01:05:58,855 [main] DEBUG class java.lang.Class - Starting Eclipse Andmore Database Core Plugin...
+2016-03-23 01:05:58,945 [main] DEBUG Studio for Android - JDBC Driver Location:bundleentry://939.fwk1197869169/res/androidjdbc.jar JDBC Driver getBundle().getLocation():reference:file:plugins/org.eclipse.andmore.android.common_0.5.0.201512151015.jar
+2016-03-23 01:05:58,945 [main] DEBUG Studio for Android - JDBC Driver Path:E:\eclipse - Mobile\configuration\org.eclipse.osgi\939\0\.cp\res\androidjdbc.jar
+2016-03-23 01:05:58,945 [main] DEBUG Studio for Android - JDBC Driver Location:bundleentry://939.fwk1197869169/res/androidjdbc.jar JDBC Driver getBundle().getLocation():reference:file:plugins/org.eclipse.andmore.android.common_0.5.0.201512151015.jar
+2016-03-23 01:05:58,945 [main] DEBUG Studio for Android - JDBC Driver Path:E:\eclipse - Mobile\configuration\org.eclipse.osgi\939\0\.cp\res\androidjdbc.jar
+2016-03-23 01:05:58,956 [main] DEBUG class java.lang.Class - Eclipse Andmore Database Core Plugin started.
+2016-03-23 01:05:58,956 [main] DEBUG class java.lang.Class - Starting Eclipse Andmore Database Devices Support Plugin...
+2016-03-23 01:05:58,960 [main] DEBUG class java.lang.Class - Eclipse Andmore Database Devices Support Plugin started...
+2016-03-23 01:05:59,383 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.wizard.DeviceWizardPlugin-SHUTDOWN
+2016-03-23 01:05:59,964 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.service.start.StartServicePlugin-SHUTDOWN
+2016-03-23 01:06:00,044 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.ui.DeviceUIPlugin-SHUTDOWN
+2016-03-23 01:06:00,044 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.service.stop.StopServicePlugin-SHUTDOWN
+2016-03-23 01:06:00,044 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.DevicePlugin-SHUTDOWN
+2016-03-23 01:09:11,966 [Worker-1] DEBUG class java.lang.Class - Starting Andmore Common Plugin...
+2016-03-23 01:09:11,966 [Worker-1] DEBUG class java.lang.Class - Andmore Common Plugin started.
+2016-03-23 01:09:11,966 [Worker-1] DEBUG class java.lang.Class - Starting Andmore Plugin...
+2016-03-23 01:09:11,966 [Worker-1] DEBUG class java.lang.Class - Andmore Plugin started.
+2016-03-23 01:09:12,046 [Worker-1] DEBUG class java.lang.Class - Starting Andmore Emulator Plugin...
+2016-03-23 01:09:12,066 [Worker-1] DEBUG class java.lang.Class - Andmore Emulator Plugin started.
+2016-03-23 01:09:12,083 [Worker-1] DEBUG class java.lang.Class - Starting Andmore Handset Plugin...
+2016-03-23 01:09:12,083 [Worker-1] DEBUG class java.lang.Class - Andmore Handset Plugin started.
+2016-03-23 01:09:12,083 [Worker-1] DEBUG class java.lang.Class - Starting Andmore Remote Device Plugin...
+2016-03-23 01:09:12,083 [Worker-1] DEBUG class java.lang.Class - Starting Andmore Remote Device Plugin started.
+2016-03-23 01:09:12,098 [Worker-1] DEBUG class java.lang.Class - Starting Andmore Device Services Plugin...
+2016-03-23 01:09:12,098 [Worker-1] DEBUG class java.lang.Class - Andmore Device Services Plugin started.
+2016-03-23 01:09:12,114 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_23_x86 Status: OFF
+2016-03-23 01:09:12,114 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyTestDevice Status: OFF
+2016-03-23 01:09:12,130 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_23_x86 Status: org.eclipse.andmore.android.emulator.status.notavailable
+2016-03-23 01:09:12,130 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyTestDevice Status: org.eclipse.andmore.android.emulator.status.notavailable
+2016-03-23 01:09:12,130 [Worker-1] INFO  Studio for Android - [Status: id=IDLE;name=IDLE]
+2016-03-23 01:09:12,130 [Worker-1] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.handset.status.handsetonline;name=Online]
+2016-03-23 01:09:12,130 [Worker-1] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.notavailable;name=Not available]
+2016-03-23 01:09:12,130 [Worker-1] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.offline;name=Offline]
+2016-03-23 01:09:12,130 [Worker-1] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.online;name=Online]
+2016-03-23 01:09:12,130 [Worker-1] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.offlineNoData;name=Offline (no user data)]
+2016-03-23 01:09:12,130 [Worker-1] INFO  Studio for Android - [Status: id=OFF;name=OFF]
+2016-03-23 01:09:12,130 [Worker-1] INFO  Studio for Android - [Status: id=INACTIVE;name=INACTIVE]
+2016-03-23 01:09:12,130 [Worker-1] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.remote.status.disconnected;name=Disconnected]
+2016-03-23 01:09:12,130 [Worker-1] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.remote.status.connected;name=Connected]
+2016-03-23 01:09:14,577 [Worker-4] DEBUG class org.eclipse.andmore.android.AndroidPlugin - Notify SDK loader listeners
+2016-03-23 01:09:16,649 [Worker-3] DEBUG class org.eclipse.andmore.android.AndroidPlugin - Notify SDK loader listeners
+2016-03-23 01:09:17,450 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyAVD Status: OFF
+2016-03-23 01:09:17,450 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyAVD Status: org.eclipse.andmore.android.emulator.status.notavailable
+2016-03-23 01:09:17,465 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyAVD Status: org.eclipse.andmore.android.emulator.status.offlineNoData
+2016-03-23 01:09:17,465 [Worker-4] INFO  Studio for Android - Added instance MyAVD using default emulator definitions 
+2016-03-23 01:09:17,465 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_23_x86 Status: org.eclipse.andmore.android.emulator.status.offline
+2016-03-23 01:32:43,593 [main] DEBUG class java.lang.Class - Starting Eclipse Andmore Database Core Plugin...
+2016-03-23 01:32:43,655 [main] DEBUG Studio for Android - JDBC Driver Location:bundleentry://939.fwk193717831/res/androidjdbc.jar JDBC Driver getBundle().getLocation():reference:file:plugins/org.eclipse.andmore.android.common_0.5.0.201512151015.jar
+2016-03-23 01:32:43,655 [main] DEBUG Studio for Android - JDBC Driver Path:E:\eclipse - Mobile\configuration\org.eclipse.osgi\939\0\.cp\res\androidjdbc.jar
+2016-03-23 01:32:43,655 [main] DEBUG Studio for Android - JDBC Driver Location:bundleentry://939.fwk193717831/res/androidjdbc.jar JDBC Driver getBundle().getLocation():reference:file:plugins/org.eclipse.andmore.android.common_0.5.0.201512151015.jar
+2016-03-23 01:32:43,655 [main] DEBUG Studio for Android - JDBC Driver Path:E:\eclipse - Mobile\configuration\org.eclipse.osgi\939\0\.cp\res\androidjdbc.jar
+2016-03-23 01:32:43,655 [main] DEBUG class java.lang.Class - Eclipse Andmore Database Core Plugin started.
+2016-03-23 01:32:43,655 [main] DEBUG class java.lang.Class - Starting Eclipse Andmore Database Devices Support Plugin...
+2016-03-23 01:32:43,655 [main] DEBUG class java.lang.Class - Eclipse Andmore Database Devices Support Plugin started...
+2016-03-23 01:32:43,936 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.wizard.DeviceWizardPlugin-SHUTDOWN
+2016-03-23 01:32:44,468 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.service.start.StartServicePlugin-SHUTDOWN
+2016-03-23 01:32:44,514 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.ui.DeviceUIPlugin-SHUTDOWN
+2016-03-23 01:32:44,514 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.service.stop.StopServicePlugin-SHUTDOWN
+2016-03-23 01:32:44,514 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.DevicePlugin-SHUTDOWN
+2016-03-23 01:33:37,166 [Worker-0] DEBUG class java.lang.Class - Starting Andmore Common Plugin...
+2016-03-23 01:33:37,166 [Worker-0] DEBUG class java.lang.Class - Andmore Common Plugin started.
+2016-03-23 01:33:37,166 [Worker-0] DEBUG class java.lang.Class - Starting Andmore Plugin...
+2016-03-23 01:33:37,182 [Worker-0] DEBUG class java.lang.Class - Andmore Plugin started.
+2016-03-23 01:33:37,260 [Worker-0] DEBUG class java.lang.Class - Starting Andmore Emulator Plugin...
+2016-03-23 01:33:37,291 [Worker-0] DEBUG class java.lang.Class - Andmore Emulator Plugin started.
+2016-03-23 01:33:37,331 [Worker-0] DEBUG class java.lang.Class - Starting Andmore Handset Plugin...
+2016-03-23 01:33:37,331 [Worker-0] DEBUG class java.lang.Class - Andmore Handset Plugin started.
+2016-03-23 01:33:37,331 [Worker-0] DEBUG class java.lang.Class - Starting Andmore Remote Device Plugin...
+2016-03-23 01:33:37,331 [Worker-0] DEBUG class java.lang.Class - Starting Andmore Remote Device Plugin started.
+2016-03-23 01:33:37,346 [Worker-0] DEBUG class java.lang.Class - Starting Andmore Device Services Plugin...
+2016-03-23 01:33:37,346 [Worker-0] DEBUG class java.lang.Class - Andmore Device Services Plugin started.
+2016-03-23 01:33:37,378 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_23_x86 Status: OFF
+2016-03-23 01:33:37,378 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyTestDevice Status: OFF
+2016-03-23 01:33:37,378 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyAVD Status: OFF
+2016-03-23 01:33:37,378 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_23_x86 Status: org.eclipse.andmore.android.emulator.status.notavailable
+2016-03-23 01:33:37,378 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyTestDevice Status: org.eclipse.andmore.android.emulator.status.notavailable
+2016-03-23 01:33:37,378 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyAVD Status: org.eclipse.andmore.android.emulator.status.notavailable
+2016-03-23 01:33:37,393 [Worker-0] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.offline;name=Offline]
+2016-03-23 01:33:37,393 [Worker-0] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.handset.status.handsetonline;name=Online]
+2016-03-23 01:33:37,393 [Worker-0] INFO  Studio for Android - [Status: id=INACTIVE;name=INACTIVE]
+2016-03-23 01:33:37,393 [Worker-0] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.notavailable;name=Not available]
+2016-03-23 01:33:37,393 [Worker-0] INFO  Studio for Android - [Status: id=IDLE;name=IDLE]
+2016-03-23 01:33:37,393 [Worker-0] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.remote.status.connected;name=Connected]
+2016-03-23 01:33:37,393 [Worker-0] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.remote.status.disconnected;name=Disconnected]
+2016-03-23 01:33:37,393 [Worker-0] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.online;name=Online]
+2016-03-23 01:33:37,393 [Worker-0] INFO  Studio for Android - [Status: id=OFF;name=OFF]
+2016-03-23 01:33:37,393 [Worker-0] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.offlineNoData;name=Offline (no user data)]
+2016-03-23 01:33:39,143 [Worker-1] DEBUG class org.eclipse.andmore.android.AndroidPlugin - Notify SDK loader listeners
+2016-03-23 01:33:40,345 [Worker-9] DEBUG class org.eclipse.andmore.android.AndroidPlugin - Notify SDK loader listeners
+2016-03-23 01:33:41,108 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyAVD Status: org.eclipse.andmore.android.emulator.status.offlineNoData
+2016-03-23 01:33:41,108 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_23_x86 Status: org.eclipse.andmore.android.emulator.status.offline
+2016-03-23 01:34:58,614 [Device List Monitor] DEBUG Studio for Android - Device connected: emulator-5554
+2016-03-23 01:35:00,328 [Device List Monitor] INFO  Studio for Android - The TmL Instance is not started/Starting, but the emulator/VM is already online. Execute a dummy start service to force a transition to start status...
+2016-03-23 01:35:00,336 [Device List Monitor] INFO  Studio for Android - Try to get Timeout property from MyAVD
+2016-03-23 01:35:00,361 [Device List Monitor] DEBUG Studio for Android - Retrieved start logic: org.eclipse.andmore.android.emulator10.StartAndroidEmulatorLogic@7a6acf6
+2016-03-23 01:35:00,361 [Device List Monitor] DEBUG Studio for Android - Finished Execution of the start emulator service... :MyAVD Status => Status OK: unknown code=0 OK null
+2016-03-23 01:35:00,361 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyAVD Status: org.eclipse.andmore.android.emulator.status.online
+2016-03-23 01:35:00,362 [Instance Event Manager] INFO  Studio for Android - The emulator MyAVD transitioned to started state. Try to estabilish a VNC connection...
+2016-03-23 01:35:00,362 [Device List Monitor] INFO  Studio for Android - New Device connected at emulator-5554
+2016-03-23 01:35:28,736 [Device List Monitor] DEBUG Studio for Android - Device changed: emulator-5554
+2016-03-23 01:39:46,136 [Device List Monitor] DEBUG Studio for Android - Device disconnected: emulator-5554
+2016-03-23 01:41:25,446 [Device List Monitor] DEBUG Studio for Android - Device connected: emulator-5554
+2016-03-23 01:41:26,999 [Device List Monitor] INFO  Studio for Android - New Device connected at emulator-5554
+2016-03-23 01:41:43,489 [Device List Monitor] DEBUG Studio for Android - Device changed: emulator-5554
+2016-03-23 01:44:45,832 [Device List Monitor] DEBUG Studio for Android - Device disconnected: emulator-5554
+2016-03-23 01:48:07,312 [Device List Monitor] DEBUG Studio for Android - Device connected: emulator-5554
+2016-03-23 01:48:08,759 [Device List Monitor] INFO  Studio for Android - New Device connected at emulator-5554
+2016-03-23 01:48:25,333 [Device List Monitor] DEBUG Studio for Android - Device changed: emulator-5554
+2016-03-23 01:50:05,485 [Device List Monitor] DEBUG Studio for Android - Device disconnected: emulator-5554
+2016-03-23 02:20:56,481 [main] DEBUG class java.lang.Class - Starting Eclipse Andmore Database Core Plugin...
+2016-03-23 02:20:56,559 [main] DEBUG Studio for Android - JDBC Driver Location:bundleentry://939.fwk1328764608/res/androidjdbc.jar JDBC Driver getBundle().getLocation():reference:file:plugins/org.eclipse.andmore.android.common_0.5.0.201512151015.jar
+2016-03-23 02:20:56,559 [main] DEBUG Studio for Android - JDBC Driver Path:E:\eclipse - Mobile\configuration\org.eclipse.osgi\939\0\.cp\res\androidjdbc.jar
+2016-03-23 02:20:56,559 [main] DEBUG Studio for Android - JDBC Driver Location:bundleentry://939.fwk1328764608/res/androidjdbc.jar JDBC Driver getBundle().getLocation():reference:file:plugins/org.eclipse.andmore.android.common_0.5.0.201512151015.jar
+2016-03-23 02:20:56,559 [main] DEBUG Studio for Android - JDBC Driver Path:E:\eclipse - Mobile\configuration\org.eclipse.osgi\939\0\.cp\res\androidjdbc.jar
+2016-03-23 02:20:56,574 [main] DEBUG class java.lang.Class - Eclipse Andmore Database Core Plugin started.
+2016-03-23 02:20:56,574 [main] DEBUG class java.lang.Class - Starting Eclipse Andmore Database Devices Support Plugin...
+2016-03-23 02:20:56,574 [main] DEBUG class java.lang.Class - Eclipse Andmore Database Devices Support Plugin started...
+2016-03-23 02:22:04,022 [Device List Monitor] DEBUG Studio for Android - Device connected: emulator-5554
+2016-03-23 02:22:05,506 [Device List Monitor] INFO  Studio for Android - New Device connected at emulator-5554
+2016-03-23 02:22:34,039 [Device List Monitor] DEBUG Studio for Android - Device changed: emulator-5554
+2016-03-23 02:24:32,858 [Device List Monitor] DEBUG Studio for Android - Device disconnected: emulator-5554
+2016-03-23 02:24:43,450 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.wizard.DeviceWizardPlugin-SHUTDOWN
+2016-03-23 02:24:43,991 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.service.start.StartServicePlugin-SHUTDOWN
+2016-03-23 02:24:44,038 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.ui.DeviceUIPlugin-SHUTDOWN
+2016-03-23 02:24:44,038 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.service.stop.StopServicePlugin-SHUTDOWN
+2016-03-23 02:24:44,038 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.DevicePlugin-SHUTDOWN
+2016-03-23 02:25:20,150 [Worker-3] DEBUG class java.lang.Class - Starting Andmore Common Plugin...
+2016-03-23 02:25:20,150 [Worker-3] DEBUG class java.lang.Class - Andmore Common Plugin started.
+2016-03-23 02:25:20,150 [Worker-3] DEBUG class java.lang.Class - Starting Andmore Plugin...
+2016-03-23 02:25:20,150 [Worker-3] DEBUG class java.lang.Class - Andmore Plugin started.
+2016-03-23 02:25:20,197 [Worker-3] DEBUG class java.lang.Class - Starting Andmore Emulator Plugin...
+2016-03-23 02:25:20,291 [Worker-3] DEBUG class java.lang.Class - Andmore Emulator Plugin started.
+2016-03-23 02:25:20,338 [Worker-3] DEBUG class java.lang.Class - Starting Andmore Handset Plugin...
+2016-03-23 02:25:20,338 [Worker-3] DEBUG class java.lang.Class - Andmore Handset Plugin started.
+2016-03-23 02:25:20,338 [Worker-3] DEBUG class java.lang.Class - Starting Andmore Remote Device Plugin...
+2016-03-23 02:25:20,369 [Worker-3] DEBUG class java.lang.Class - Starting Andmore Remote Device Plugin started.
+2016-03-23 02:25:20,431 [Worker-3] DEBUG class java.lang.Class - Starting Andmore Device Services Plugin...
+2016-03-23 02:25:20,431 [Worker-3] DEBUG class java.lang.Class - Andmore Device Services Plugin started.
+2016-03-23 02:25:20,463 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyTestDevice Status: OFF
+2016-03-23 02:25:20,572 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_23_x86 Status: OFF
+2016-03-23 02:25:20,572 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyAVD Status: OFF
+2016-03-23 02:25:20,478 [Worker-3] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.offline;name=Offline]
+2016-03-23 02:25:20,588 [Worker-3] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.handset.status.handsetonline;name=Online]
+2016-03-23 02:25:20,588 [Worker-3] INFO  Studio for Android - [Status: id=INACTIVE;name=INACTIVE]
+2016-03-23 02:25:20,588 [Worker-3] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.notavailable;name=Not available]
+2016-03-23 02:25:20,588 [Worker-3] INFO  Studio for Android - [Status: id=IDLE;name=IDLE]
+2016-03-23 02:25:20,588 [Worker-3] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.remote.status.connected;name=Connected]
+2016-03-23 02:25:20,588 [Worker-3] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.remote.status.disconnected;name=Disconnected]
+2016-03-23 02:25:20,588 [Worker-3] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.online;name=Online]
+2016-03-23 02:25:20,588 [Worker-3] INFO  Studio for Android - [Status: id=OFF;name=OFF]
+2016-03-23 02:25:20,588 [Worker-3] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.offlineNoData;name=Offline (no user data)]
+2016-03-23 02:25:20,666 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyTestDevice Status: org.eclipse.andmore.android.emulator.status.notavailable
+2016-03-23 02:25:20,666 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_23_x86 Status: org.eclipse.andmore.android.emulator.status.notavailable
+2016-03-23 02:25:20,666 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyAVD Status: org.eclipse.andmore.android.emulator.status.notavailable
+2016-03-23 02:25:21,153 [Worker-1] DEBUG class org.eclipse.andmore.android.AndroidPlugin - Notify SDK loader listeners
+2016-03-23 02:25:22,108 [Worker-2] DEBUG class org.eclipse.andmore.android.AndroidPlugin - Notify SDK loader listeners
+2016-03-23 02:25:22,702 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: Nexus_5_API_23_x86 Status: org.eclipse.andmore.android.emulator.status.offline
+2016-03-23 02:25:22,702 [Instance Event Manager] INFO  Studio for Android - The android device instance status was updated: MyAVD Status: org.eclipse.andmore.android.emulator.status.offline
+2016-03-23 02:27:04,284 [main] DEBUG class java.lang.Class - Starting Eclipse Andmore Database Core Plugin...
+2016-03-23 02:27:04,364 [main] DEBUG Studio for Android - JDBC Driver Location:bundleentry://939.fwk1368391951/res/androidjdbc.jar JDBC Driver getBundle().getLocation():reference:file:plugins/org.eclipse.andmore.android.common_0.5.0.201512151015.jar
+2016-03-23 02:27:04,364 [main] DEBUG Studio for Android - JDBC Driver Path:E:\eclipse - Mobile\configuration\org.eclipse.osgi\939\0\.cp\res\androidjdbc.jar
+2016-03-23 02:27:04,364 [main] DEBUG Studio for Android - JDBC Driver Location:bundleentry://939.fwk1368391951/res/androidjdbc.jar JDBC Driver getBundle().getLocation():reference:file:plugins/org.eclipse.andmore.android.common_0.5.0.201512151015.jar
+2016-03-23 02:27:04,364 [main] DEBUG Studio for Android - JDBC Driver Path:E:\eclipse - Mobile\configuration\org.eclipse.osgi\939\0\.cp\res\androidjdbc.jar
+2016-03-23 02:27:04,379 [main] DEBUG class java.lang.Class - Eclipse Andmore Database Core Plugin started.
+2016-03-23 02:27:04,379 [main] DEBUG class java.lang.Class - Starting Eclipse Andmore Database Devices Support Plugin...
+2016-03-23 02:27:04,379 [main] DEBUG class java.lang.Class - Eclipse Andmore Database Devices Support Plugin started...
+2016-03-23 02:27:04,898 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.wizard.DeviceWizardPlugin-SHUTDOWN
+2016-03-23 02:27:05,434 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.service.start.StartServicePlugin-SHUTDOWN
+2016-03-23 02:27:05,449 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.ui.DeviceUIPlugin-SHUTDOWN
+2016-03-23 02:27:05,449 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.service.stop.StopServicePlugin-SHUTDOWN
+2016-03-23 02:27:05,449 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.DevicePlugin-SHUTDOWN
