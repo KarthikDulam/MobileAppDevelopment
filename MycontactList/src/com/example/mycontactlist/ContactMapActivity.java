@@ -15,7 +15,7 @@ public class ContactMapActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_contact_map);
 		initListButton();
-		initMapButton();
+		//initMapButton();
 		initSettingsButton();
 	}
 

@@ -16,7 +16,7 @@ public class ContactSettingsActivity extends Activity {
 		setContentView(R.layout.activity_contact_settings);
 		initListButton();
 		initMapButton();
-		initSettingsButton();
+		//initSettingsButton();
 	}
 
 	@Override
